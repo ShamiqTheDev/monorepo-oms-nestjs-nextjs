@@ -1,0 +1,17 @@
+{
+  "name": "@atdb/server-utils",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.2.7",
+    "kysely": "^0.26.3",
+    "typescript": "^5.2.2",
+    "@atdb/types": "workspace:*"
+  }
+}

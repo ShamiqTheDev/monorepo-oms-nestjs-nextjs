@@ -1,0 +1,10 @@
+@layer reset, base, tokens, recipes, utilities;
+
+button {
+  cursor: pointer;
+}
+
+pre {
+  display: inline;
+  font-family: monospace;
+}

@@ -1,0 +1,4 @@
+{
+  "extends": "@atdb/tsconfig/base.json",
+  "exclude": ["dist", "build", "node_modules"]
+}

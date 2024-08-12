@@ -1,0 +1,15 @@
+{
+  "name": "@atdb/types",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "dependencies": {
+    "@udecode/plate-common": "^30.4.5",
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "kysely": "^0.26.3",
+    "next-auth": "^4.24.7",
+    "vite": "^4.5.3"
+  }
+}

@@ -1,0 +1,3 @@
+{
+  "extends": "@atdb/tsconfig/base.json"
+}

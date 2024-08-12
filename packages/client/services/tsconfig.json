@@ -1,0 +1,5 @@
+{
+  "extends": "@atdb/tsconfig/frontend.json",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"]
+}

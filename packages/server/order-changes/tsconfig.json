@@ -1,0 +1,5 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@atdb/tsconfig/nestjs.json",
+  "display": "Nestjs Order Changes Service"
+}

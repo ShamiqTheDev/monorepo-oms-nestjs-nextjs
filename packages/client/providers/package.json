@@ -1,0 +1,17 @@
+{
+  "name": "@atdb/client-providers",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "dependencies": {
+    "@atdb/design-system": "workspace:^",
+    "@atdb/ui": "workspace:^",
+    "next-auth": "^4.24.7",
+    "react": "^18.2.0",
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "@atdb/tsconfig": "workspace:^",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0"
+  }
+}

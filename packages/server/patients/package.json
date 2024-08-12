@@ -1,0 +1,24 @@
+{
+  "name": "@atdb/server-patients",
+  "version": "0.0.0",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "private": true,
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@atdb/server-kysely": "workspace:^",
+    "@atdb/server-utils": "workspace:^",
+    "@atdb/types": "workspace:^",
+    "@nestjs/common": "^10.2.7",
+    "class-validator": "^0.14.0",
+    "express": "^4.19.2",
+    "kysely": "^0.26.3",
+    "nestjs-pino": "^3.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.18"
+  }
+}

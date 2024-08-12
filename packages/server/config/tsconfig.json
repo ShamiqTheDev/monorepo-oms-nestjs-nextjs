@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@atdb/tsconfig/nestjs.json",
+  "display": "Nestjs Config Service",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": "."
+  }
+}

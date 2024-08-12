@@ -1,0 +1,23 @@
+{
+  "name": "@atdb/server-kysely",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.2.7",
+    "kysely": "^0.26.3",
+    "nestjs-pino": "^3.5.0",
+    "pg": "^8.11.3",
+    "typescript": "^5.2.2",
+    "@atdb/server-config": "workspace:*",
+    "@atdb/types": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.10.3"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "extends": "@atdb/tsconfig/frontend.json",
+  "include": ["."],
+  "compilerOptions": { "module": "ES2022" },
+  "exclude": ["dist", "build", "node_modules"]
+}

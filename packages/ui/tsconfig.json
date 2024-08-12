@@ -1,0 +1,9 @@
+{
+  "extends": "@atdb/tsconfig/react-library.json",
+  "include": [".", "../types/next/**/*.d.ts"],
+  "exclude": ["dist", "build", "node_modules"],
+  "compilerOptions": {
+    "declarationMap": false,
+    "declaration": false
+  }
+}

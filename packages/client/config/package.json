@@ -1,0 +1,12 @@
+{
+  "name": "@atdb/client-config",
+  "main": "index.ts",
+  "types": "index.ts",
+  "dependencies": {
+    "@atdb/types": "workspace:^",
+    "@t3-oss/env-nextjs": "^0.7.0",
+    "@types/node": "^20.8.3",
+    "typescript": "latest",
+    "zod": "^3.22.4"
+  }
+}

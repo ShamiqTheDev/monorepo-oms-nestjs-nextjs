@@ -1,0 +1,13 @@
+{
+  "extends": "@atdb/tsconfig/nextjs.json",
+  "compilerOptions": {
+    "target": "ES2020",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": ["**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "../../packages/types/next/**/*.d.ts", "./next-auth.d.ts"],
+  "exclude": ["node_modules"]
+}

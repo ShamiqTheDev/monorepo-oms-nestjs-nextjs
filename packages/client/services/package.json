@@ -1,0 +1,13 @@
+{
+  "name": "@atdb/client-services",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "dependencies": {
+    "@atdb/client-config": "workspace:^",
+    "@atdb/types": "workspace:^",
+    "@types/node": "^20.8.3",
+    "next-auth": "^4.24.7",
+    "typescript": "latest",
+    "zod": "^3.22.4"
+  }
+}

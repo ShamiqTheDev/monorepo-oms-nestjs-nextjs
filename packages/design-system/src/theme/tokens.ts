@@ -1,0 +1,137 @@
+import { defineTokens } from "@pandacss/dev";
+
+export const tokens = defineTokens({
+  colors: {
+    primary: {
+      25: { value: "hsl(260 60% 99%)" },
+      50: { value: "hsl(260 60% 98%)" },
+      100: { value: "hsl(263 100% 95%)" },
+      200: { value: "hsl(261 96% 82%)" },
+      300: { value: "hsl(260 95% 75%)" },
+      400: { value: "hsl(259 92% 67%)" },
+      500: { value: "hsl(258 91% 63%)" },
+      600: { value: "hsl(257 50% 50%)" },
+      700: { value: "hsl(255 49% 41%)" },
+      800: { value: "hsl(254 48% 37%)" },
+      875: { value: "hsl(254 48% 33%)" },
+      900: { value: "hsl(254 46% 31%)" },
+    },
+
+    gray: {
+      25: { value: "hsl(240 20% 99%)" },
+      50: { value: "hsl(260 27% 98%)" },
+      100: { value: "hsl(266 33% 96%)" },
+      200: { value: "hsl(260 26% 91%)" },
+      300: { value: "hsl(260 26% 84%)" },
+      400: { value: "hsl(262 18% 65%)" },
+      500: { value: "hsl(263 12% 46%)" },
+      600: { value: "hsl(261 20% 34%)" },
+      700: { value: "hsl(263 24% 27%)" },
+      800: { value: "hsl(262 26% 17%)" },
+      875: { value: "hsl(263 32% 13%)" },
+      900: { value: "hsl(263 32% 11%)" },
+    },
+
+    instructive: {
+      25: { value: "hsl(216 100% 99%)" },
+      50: { value: "hsl(213 91% 98%)" },
+      100: { value: "hsl(212, 38%, 94%)" },
+      200: { value: "hsl(211 82% 68%)" },
+      300: { value: "hsl(220 74% 51%)" },
+      400: { value: "hsl(225 74% 42%)" },
+      500: { value: "hsl(230 74% 35%)" },
+    },
+
+    imperative: {
+      100: { value: "hsl(53 91% 68%)" },
+      200: { value: "hsl(50 79% 57%)" },
+      25: { value: "hsl(53 82% 98%)" },
+      300: { value: "hsl(47 67% 51%)" },
+      400: { value: "hsl(40 64% 48%)" },
+      50: { value: "hsl(52 90% 92%)" },
+      500: { value: "hsl(36 69% 41%)" },
+    },
+
+    negative: {
+      25: { value: "hsl(12 100% 98%)" },
+      50: { value: "hsl(13 100% 98%)" },
+      100: { value: "hsl(10 100% 95%)" },
+      200: { value: "hsl(2 100% 70%)" },
+      300: { value: "hsl(4 73% 53%)" },
+      400: { value: "hsl(3 60% 45%)" },
+      500: { value: "hsl(2 60% 35%)" },
+    },
+
+    positive: {
+      25: { value: "hsl(150 80% 99%)" },
+      50: { value: "hsl(152 85% 98%)" },
+      100: { value: "hsl(151 70% 93%)" },
+      200: { value: "hsl(148 68% 65%)" },
+      300: { value: "hsl(148 61% 45%)" },
+      400: { value: "hsl(142 72% 34%)" },
+      500: { value: "hsl(133 72% 25%)" },
+    },
+  },
+
+  spacing: {
+    xs: { value: "0.15rem" },
+    sm: { value: "0.25rem" },
+    md: { value: "0.5rem" },
+    lg: { value: "0.75rem" },
+    xl: { value: "1rem" },
+    "2xl": { value: "1.25rem" },
+    "3xl": { value: "1.5rem" },
+    "4xl": { value: "2rem" },
+    "5xl": { value: "2.5rem" },
+    "6xl": { value: "3rem" },
+    "7xl": { value: "3.5rem" },
+    /*
+      0: { value: '0' },
+      50: { value: '0.15rem' },
+      100: { value: '0.25rem' },
+      200: { value: '0.5rem' },
+      300: { value: '0.75rem' },
+      400: { value: '1rem' },
+      500: { value: '1.15rem' },
+      600: { value: '2.25rem' },
+      700: { value: '2.5rem' },
+      800: { value: '2.75rem' },
+      900: { value: '3rem' },
+    */
+  },
+
+  sizes: {
+    xs: { value: "0.15rem" },
+    sm: { value: "0.25rem" },
+    md: { value: "0.5rem" },
+    lg: { value: "0.75rem" },
+    xl: { value: "1rem" },
+    "2xl": { value: "1.25rem" },
+    "3xl": { value: "1.5rem" },
+    "4xl": { value: "2rem" },
+    "5xl": { value: "2.5rem" },
+    "6xl": { value: "3rem" },
+    "7xl": { value: "6rem" },
+    "8xl": { value: "10rem" },
+    "9xl": { value: "12rem" },
+    "10xl": { value: "15rem" },
+    "11xl": { value: "20rem" },
+    "12xl": { value: "25rem" },
+  },
+
+  fonts: {
+    manrope: { value: "var(--font-manrope), sans-serif" },
+  },
+
+  fontSizes: {
+    xs: { value: "0.75rem" },
+    sm: { value: "0.875rem" },
+    md: { value: "1rem" },
+    lg: { value: "1.25rem" },
+    xl: { value: "1.5rem" },
+    "2xl": { value: "1.75rem" },
+    "3xl": { value: "1.875rem" },
+    "4xl": { value: "2rem" },
+    "5xl": { value: "2.5rem" },
+  },
+});

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Frontend",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "paths": {
+      "@atdb/auth-options": ["../../apps/web/app/api/auth/[...nextauth]/auth-options.ts"]
+    }
+  },
+  "include": ["../types/next/**/*.d.ts"]
+}
